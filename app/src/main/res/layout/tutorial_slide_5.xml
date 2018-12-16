@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/tutorial_5" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textColor="#fff"
+            android:layout_marginTop="@dimen/slide_title"
+            android:layout_marginBottom="@dimen/slide_title"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="- Set password: Set password for your app or your privacy images
+            \n- Delete password: Delete your current password (if had)
+            \n- Nightmode: Set nightmode's options for the app
+            \n- About FIT SE Album: Information about app, developers"
+            android:textColor="#fff"
+            android:textSize="@dimen/slide_desc" />
+    </LinearLayout>
+</RelativeLayout>

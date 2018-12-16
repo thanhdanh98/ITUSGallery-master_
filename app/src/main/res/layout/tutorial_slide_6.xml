@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thank you for your support"
+            android:textColor="#fff"
+            android:layout_marginBottom="@dimen/slide_title"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you want to review app's features please go to Help or click More Help below for more information"
+            android:textColor="#fff"
+            android:textSize="@dimen/slide_desc"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"/>
+        <TextView
+            android:id="@+id/txt_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/desc_padding"
+            android:layout_marginTop="10dp"
+            android:text="More Help"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:onClick="ChangeToHelp"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+</RelativeLayout>

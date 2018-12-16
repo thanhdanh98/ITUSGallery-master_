@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textColor="#fff"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="@dimen/slide_title"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:src="@drawable/tutorial_3" />
+    </LinearLayout>
+</RelativeLayout>

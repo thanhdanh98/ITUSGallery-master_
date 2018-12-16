@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/tutorial_2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Features"
+            android:textColor="#fff"
+            android:layout_marginTop="@dimen/slide_title"
+            android:layout_marginBottom="@dimen/slide_title"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="- Load images with fast speed
+            \n- Upload your images to your own Cloud Storage
+            \n- Protect your images in Privacy Section
+            \n- Image's features: Edit, Crop, Share, Delete,...
+            \n- Save your eye with nightmode"
+            android:textColor="#fff"
+            android:textSize="@dimen/slide_desc" />
+    </LinearLayout>
+</RelativeLayout>
