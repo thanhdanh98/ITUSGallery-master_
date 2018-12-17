@@ -26,6 +26,5 @@
         app:showAsAction="always"
         android:title="Local_camera"
         tools:ignore="HardcodedText" />
-        />
 
 </menu>

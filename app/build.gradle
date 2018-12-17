@@ -47,4 +47,5 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.2'
     implementation 'com.github.chrisbanes.photoview:library:1.2.4'
     implementation 'com.google.android.gms:play-services-vision:15.0.1'
+    implementation 'com.karumi:dexter:5.0.0'
 }
